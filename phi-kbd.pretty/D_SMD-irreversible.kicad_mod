@@ -1,0 +1,21 @@
+(module D_SMD-irreversible (layer F.Cu) (tedit 5C581042)
+  (descr "Resitance 3 pas")
+  (tags R)
+  (autoplace_cost180 10)
+  (fp_text reference D1 (at 0.55 0) (layer F.Fab) hide
+    (effects (font (size 0.5 0.5) (thickness 0.125)))
+  )
+  (fp_text value D (at -0.55 0) (layer F.Fab) hide
+    (effects (font (size 0.5 0.5) (thickness 0.125)))
+  )
+  (fp_line (start -2.7432 -0.762) (end -2.7432 0.762) (layer B.SilkS) (width 0.15))
+  (fp_line (start -2.7432 0.762) (end -1.1176 0.762) (layer B.SilkS) (width 0.15))
+  (fp_line (start -2.7432 -0.762) (end -1.1176 -0.762) (layer B.SilkS) (width 0.15))
+  (pad 2 smd rect (at 1.775 0) (size 1.3 0.95) (layers B.Cu B.Paste B.Mask))
+  (pad 1 smd rect (at -1.775 0) (size 1.3 0.95) (layers B.Cu B.Paste B.Mask))
+  (model ${KISYS3DMOD}/Diode_SMD.3dshapes/D_SOD-123F.wrl
+    (offset (xyz 0 0 -1.6))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 180 180))
+  )
+)
