@@ -1,4 +1,4 @@
-(module SW_kailh_pg1350_1u_Reversible_short (layer F.Cu) (tedit 5C660F1F)
+(module Choc_1.00u-narrow-reversible (layer F.Cu) (tedit 5C6614A3)
   (fp_text reference REF** (at 0 -8.5) (layer F.Fab)
     (effects (font (size 1 1) (thickness 0.15)))
   )
@@ -31,7 +31,7 @@
   (pad "" np_thru_hole circle (at 5.5 0) (size 1.9 1.9) (drill 1.9) (layers *.Cu *.Mask))
   (pad "" np_thru_hole circle (at -5.5 0) (size 1.9 1.9) (drill 1.9) (layers *.Cu *.Mask))
   (pad "" np_thru_hole circle (at 0 0) (size 3.4 3.4) (drill 3.4) (layers *.Cu *.Mask))
-  (model ${KISYS3DMOD}/SMKJP.3dshapes/kailh_pg_1350.step
+  (model ${KISYS3DMOD}/phi-kbd.3dshapes/Choc.step
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
