@@ -1,12 +1,12 @@
-(module StripLED-1mm-irreversible (layer F.Cu) (tedit 5C4DAFA0)
+(module StripLED-1mm-irreversible (layer F.Cu) (tedit 5C6F4193)
   (fp_text reference P4 (at 0 -2.54) (layer F.SilkS) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_text value LED (at 0 7.62) (layer F.Fab) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (fp_line (start -0.762 -2.4892) (end 0.762 -2.4892) (layer F.SilkS) (width 0.15))
-  (fp_line (start -0.762 7.5184) (end 0.762 7.5184) (layer F.SilkS) (width 0.15))
+  (fp_line (start -0.001 -2.4892) (end 0.001 -2.4892) (layer F.SilkS) (width 0.15))
+  (fp_line (start 0.001 7.5184) (end -0.001 7.5184) (layer F.SilkS) (width 0.15))
   (pad 3 smd rect (at 0 5.08) (size 1.524 1.524) (layers F.Cu F.Paste F.Mask))
   (pad 2 smd rect (at 0 2.54) (size 1.524 1.524) (layers F.Cu F.Paste F.Mask))
   (pad 1 smd rect (at 0 0) (size 1.524 1.524) (layers F.Cu F.Paste F.Mask))
