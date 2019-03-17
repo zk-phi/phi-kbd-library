@@ -25,6 +25,16 @@ zk-phi's keyboard library for KiCAD.
 
 Footprints start with `_` are NOT officially supported, but created with a texteditor.
 
+## How to add 3d previews
+
+I currently add 3d previews as follows:
+
+- Model it with OpenSCAD and export as Text STL
+- Convert to Binary STL with Meshmixer
+- Convert to STEP with FreeCAD
+
+Since it losses color data, I am looking for a better way (to convert from OpenSCAD, if possible).
+
 ## License
 
 Some parts of this library are based on following libraries:
