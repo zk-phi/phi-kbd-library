@@ -30,10 +30,7 @@ Footprints start with `_` are NOT officially supported, but created with a texte
 I currently add 3d previews as follows:
 
 - Model it with OpenSCAD and export as Text STL
-- Convert to Binary STL with Meshmixer
-- Convert to STEP with FreeCAD
-
-Since it losses color data, I am looking for a better way (to convert from OpenSCAD, if possible).
+- Import to FreeCAD with OpenSCAD Workbench to convert to STEP
 
 ## License
 
