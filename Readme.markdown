@@ -21,6 +21,10 @@ zk-phi's keyboard library for KiCAD.
   ln -s /path/to/phi-kbd-library/phi-kbd.3dshapes
   ```
 
+## Note
+
+Footprints start with `_` are NOT officially supported, but created with a texteditor.
+
 ## License
 
 Some parts of this library are based on following libraries:
