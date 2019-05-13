@@ -10,11 +10,11 @@ zk-phi's keyboard library for KiCAD.
 
 - footprints
 
-  Use footprint library manager, found in the footprint editor > settings to add `phi-kbd.pretty`.
+  Use footprint library manager, found in the footprint editor > settings, to add `phi-kbd.pretty`.
 
 - 3d previews
 
-  Load a footprint then open footprint property > 3D configurations > configure path, and you'll find a directory pathed as `${KISYS3DMOD}`. `cd` to the directory and symlink `phi-kbd.3dshapes`.
+  Load an arbitrary footprint and open footprint property > 3D configurations > configure path, then you'll find a directory pathed as `${KISYS3DMOD}`. Open a terminal and `cd` to the directory, then symlink `phi-kbd.3dshapes`.
 
   ```shell
   cd /path/to/packages3d
@@ -23,20 +23,21 @@ zk-phi's keyboard library for KiCAD.
 
 ## Note
 
-Footprints start with `_` are NOT officially supported, but created with a texteditor.
+Footprints start with `_` are NOT officially supported by KiCAD, but created with a texteditor.
 
-## How to add 3d previews
+## For developers:
+### How to add 3d previews
 
 I currently add 3d previews as follows:
 
-- Model it with OpenSCAD and export as Text STL
-- Import to FreeCAD with OpenSCAD Workbench to convert to STEP
+- Model it with OpenSCAD
+- Import to FreeCAD with OpenSCAD Workbench and export as `.STEP with colors`
 
 ## License
 
 Some parts of this library are based on following libraries:
 
-- kbd by foostan (licensed under the MIT license)
-- SMKJP_kicad_components by hsgw (licensed under the CC-BY-SA 4.0 license)
+- `kbd` by foostan (licensed under the MIT license)
+- `SMKJP_kicad_components` by hsgw (licensed under the CC-BY-SA 4.0 license)
 
 This library is distributed under the CC-BY-SA 4.0.
