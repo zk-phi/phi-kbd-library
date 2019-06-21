@@ -1,4 +1,4 @@
-(module SwitchHole (layer F.Cu) (tedit 5D0C5087)
+(module PLATE_SwitchHole (layer F.Cu) (tedit 5D0CE4F3)
   (descr "Cherry MX keyswitch, MX1A, 1.00u, PCB mount, http://cherryamericas.com/wp-body/uploads/2014/12/mx_cat.pdf")
   (tags "cherry mx keyswitch MX1A 1.00u PCB")
   (fp_text reference REF** (at 0 -7.7) (layer F.Fab)
@@ -147,4 +147,9 @@
   (pad "" np_thru_hole oval (at 6.7 0) (size 0.2 14) (drill oval 0.2 14) (layers *.Cu *.Mask))
   (pad "" np_thru_hole oval (at 6.8 0) (size 0.2 14) (drill oval 0.2 14) (layers *.Cu *.Mask))
   (pad "" np_thru_hole oval (at 6.9 0) (size 0.2 14) (drill oval 0.2 14) (layers *.Cu *.Mask))
+  (model ${KISYS3DMOD}/phi-kbd.3dshapes/MX.step
+    (offset (xyz 0 0 -5))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )

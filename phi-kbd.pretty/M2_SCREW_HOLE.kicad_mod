@@ -1,4 +1,4 @@
-(module M2_SCREW_HOLE (layer F.Cu) (tedit 5D0C6FE1)
+(module M2_SCREW_HOLE (layer F.Cu) (tedit 5D0CE8DB)
   (descr "Mounting Hole 2.2mm, no annular, M2")
   (tags "mounting hole 2.2mm no annular m2")
   (attr virtual)
@@ -12,4 +12,9 @@
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (pad "" np_thru_hole circle (at 0 0) (size 2.4 2.4) (drill 2.2) (layers *.Cu *.Mask))
+  (model ${KISYS3DMOD}/phi-kbd.3dshapes/M2_Screw.step
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )
