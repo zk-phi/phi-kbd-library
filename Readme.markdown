@@ -37,7 +37,8 @@ I currently add 3d previews as follows:
 
 Some parts of this library are based on following libraries:
 
-- `kbd` by foostan (licensed under the MIT license)
-- `SMKJP_kicad_components` by hsgw (licensed under the CC-BY-SA 4.0 license)
+- `kbd` by @foostan (licensed under the MIT license)
+- `SMKJP_kicad_components` by @hsgw (licensed under the CC-BY-SA 4.0 license)
+- `qmk_hardware` by @qmk (licensed under the GPL 3.0 license)
 
-This library is distributed under the CC-BY-SA 4.0.
+This library is distributed under the GPL 3.0.
