@@ -23,7 +23,10 @@ zk-phi's keyboard library for KiCAD.
 
 ## Note
 
-Footprints start with `_` are NOT officially supported by KiCAD, but created with a texteditor.
+Footprints start with `_` are NOT recommended for some reasons.
+
+- smaller pads than the datasheet spec (to workaround the design rules)
+- not officially supported by KiCAD, but created with a texteditor
 
 ## For developers:
 ### How to add 3d previews
