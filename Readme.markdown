@@ -42,6 +42,7 @@ Some parts of this library are based on following libraries:
 
 - `kbd` by @foostan (licensed under the MIT license)
 - `SMKJP_kicad_components` by @hsgw (licensed under the CC-BY-SA 4.0 license)
+- `KiCAD_FootPrint` by @Salicylic-acid3 (licensed under the MIT license)
 - `qmk_hardware` by @qmk (licensed under the GPL 3.0 license)
 
 This library is distributed under the GPL 3.0.
