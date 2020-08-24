@@ -35,6 +35,8 @@ I currently add 3d previews as follows:
 
 - Model it with OpenSCAD
 - Import to FreeCAD with OpenSCAD Workbench and export as `.STEP with colors`
+  - Note that the directory name is exported to the .step file too
+  - You should not use private informations for the path/to/*.scad models
 
 ## License
 
