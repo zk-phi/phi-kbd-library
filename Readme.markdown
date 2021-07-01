@@ -28,6 +28,8 @@ Footprints start with `_` are NOT recommended for some reasons.
 - smaller pads than the datasheet spec (to workaround the design rules)
 - not officially supported by KiCAD, but created with a texteditor
 
+Some untested, WIP footprints are stored in the work branch.
+
 ## For developers:
 ### How to add 3d previews
 
